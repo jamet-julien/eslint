@@ -1,0 +1,85 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true,
+    "node": true
+  },
+  "globals": {
+    "jQuery": true,
+    "$": true,
+    "window": true,
+    "require": true
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "sourceType": "module"
+  },
+  "rules": {
+    "no-console": "error",
+    "no-const-assign": "error",
+    "no-this-before-super": "error",
+    "no-undef": "error",
+    "no-undefined": "error",
+    "no-unreachable": "error",
+    "no-unused-vars": "error",
+    "constructor-super": "error",
+    "valid-typeof": "error",
+    "dot-notation": [
+      "error",
+      {
+        "allowPattern": "^[a-z]+(_[a-z]+)+$"
+      }
+    ],
+    "semi": [
+      "error",
+      "always"
+    ],
+    "indent": [
+      "error",
+      2
+    ],
+    "key-spacing": [
+      "error",
+      {
+        "multiLine": {
+          "beforeColon": true,
+          "afterColon": true
+        },
+        "align": {
+          "beforeColon": true,
+          "afterColon": true,
+          "on": "colon"
+        }
+      }
+    ],
+    "complexity": [
+      "warn",
+      {
+        "max": 4
+      }
+    ],
+    "max-depth": [
+      "warn",
+      4
+    ],
+    "brace-style": [
+      "error",
+      "1tbs"
+    ],
+    "curly": "error",
+    "comma-style": [
+      "error",
+      "last"
+    ],
+    "comma-spacing": [
+      "error",
+      {
+        "before": false,
+        "after": true
+      }
+    ]
+  }
+}
