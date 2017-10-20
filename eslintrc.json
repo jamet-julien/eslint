@@ -1,36 +1,36 @@
 {
   "env": {
-    "browser": true,
-    "commonjs": true,
-    "es6": true,
-    "node": true
+    "browser"  : true,
+    "commonjs" : true,
+    "es6"      : true,
+    "node"     : true
   },
   "globals": {
-    "jQuery": true,
-    "$": true,
-    "window": true,
-    "require": true
+    "jQuery"  : true,
+    "$"       : true,
+    "window"  : true,
+    "require" : true
   },
   "parserOptions": {
     "ecmaFeatures": {
-      "jsx": true
+      "jsx" : true
     },
-    "sourceType": "module"
+    "sourceType" : "module"
   },
   "rules": {
-    "no-console": "error",
-    "no-const-assign": "error",
-    "no-this-before-super": "error",
-    "no-undef": "error",
-    "no-undefined": "error",
-    "no-unreachable": "error",
-    "no-unused-vars": "error",
-    "constructor-super": "error",
-    "valid-typeof": "error",
-    "dot-notation": [
+    "no-console"           : "error",
+    "no-const-assign"      : "error",
+    "no-this-before-super" : "error",
+    "no-undef"             : "error",
+    "no-undefined"         : "error",
+    "no-unreachable"       : "error",
+    "no-unused-vars"       : "error",
+    "constructor-super"    : "error",
+    "valid-typeof"         : "error",
+    "dot-notation"         : [
       "error",
       {
-        "allowPattern": "^[a-z]+(_[a-z]+)+$"
+        "allowPattern" : "^[a-z]+(_[a-z]+)+$"
       }
     ],
     "semi": [
@@ -45,20 +45,20 @@
       "error",
       {
         "multiLine": {
-          "beforeColon": true,
-          "afterColon": true
+          "beforeColon" : true,
+          "afterColon"  : true
         },
         "align": {
-          "beforeColon": true,
-          "afterColon": true,
-          "on": "colon"
+          "beforeColon" : true,
+          "afterColon"  : true,
+          "on"          : "colon"
         }
       }
     ],
     "complexity": [
       "warn",
       {
-        "max": 4
+        "max" : 4
       }
     ],
     "max-depth": [
@@ -69,16 +69,16 @@
       "error",
       "1tbs"
     ],
-    "curly": "error",
-    "comma-style": [
+    "curly"       : "error",
+    "comma-style" : [
       "error",
       "last"
     ],
     "comma-spacing": [
       "error",
       {
-        "before": false,
-        "after": true
+        "before" : false,
+        "after"  : true
       }
     ]
   }
